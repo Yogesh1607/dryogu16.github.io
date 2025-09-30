@@ -1,0 +1,52 @@
+title: "Yogesh's — Learning and Research"
+description: "Self driving   • AI • Robotics • Systems — notes, papers, projects"
+url: "https://dryogu16.github.io"
+theme: minima
+
+# Author info (string, not object → no hash dump)
+author: "Yogesh David Ravikumar"
+# email: "your@email.com"
+
+minima:
+  skin: auto
+  social_links:
+    - { platform: github,   user_url: "https://github.com/dryogu16" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/dryogu16/" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=XXXX" }
+    - { platform: orcid,    user_url: "https://orcid.org/XXXX-XXXX-XXXX-XXXX" }
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  experiments:
+    output: true
+    permalink: /research_readings/:name/
+  certifications:
+    output: true
+    permalink: /certifications/:name/
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+
+header_pages:
+  - about.md
+  - projects.md
+  - posts.md
+  - resarch_readings.md 
+  - certifications.md 
+ 
+exclude:
+  - README.md
+
+logo: /assets/images/profile.webp
+
+social:
+  image: /assets/images/profile.webp
