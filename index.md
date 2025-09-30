@@ -5,7 +5,7 @@ title: "Yogesh - Research and learning"
 
 <!-- HERO -->
 <div class="hero">
-  <img class="hero-avatar" src="{{ '/assets/images/profile.webp' | relative_url }}" alt="Jaisree headshot" width="120" height="120" />
+  <img class="hero-avatar" src="{{ '/assets/images/profile.webp' | relative_url }}" alt="Yogesh headshot" width="120" height="120" />
   <div class="hero-copy">
     <h1>AI • Robotics • Intelligent Systems</h1>
     <p>An aspiring AI engineer passionate about robotics, and autonomous systems.</p>
